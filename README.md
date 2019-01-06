@@ -11,4 +11,4 @@ These are solutions of LeetCode written by python.
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) |  | Easy | String |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) |  | Easy | String |
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) |  | Easy | String |
-| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |  | Easy | String |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | | Easy | String |
