@@ -13,7 +13,6 @@ class Solution:
             'D': 500,
             'M': 1000,
         }
-        
         result = 0
         for i in range(1, len(s)):
             result += roman[s[i]]

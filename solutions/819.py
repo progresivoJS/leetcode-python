@@ -5,22 +5,20 @@ class Solution:
         :type banned: List[str]
         :rtype: str
         """
-        paragraph = paragraph           \
-                    .replace('!', ' ')   \
+        paragraph
+        = paragraph.replace('!', ' ')   \
                     .replace('?', ' ')   \
                     .replace('.', ' ')   \
                     .replace(',', ' ')   \
                     .replace(';', ' ')   \
                     .replace('\'', ' ')  \
                     .lower()
-        
         dic = {}
         for word in paragraph.split():
             try:
                 dic[word] += 1
-            except:
+            except KeyError:
                 dic[word] = 1
-        
-        for item in sorted(dic.items(), key = lambda kv: kv[1], reverse = True):
+        for item in sorted(dic.items(), key=lambda kv: kv[1], reverse=True):
             if item[0] not in banned:
                 return item[0]

@@ -10,7 +10,7 @@ class Solution:
                 groups.append(1)
             else:
                 groups[-1] += 1
-        
+
         result = 0
         for i in range(len(groups) - 1):
             result += min(groups[i], groups[i + 1])
